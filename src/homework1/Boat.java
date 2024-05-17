@@ -1,3 +1,5 @@
+package homework1;
+
 import java.util.Random;
 
 public class Boat extends Transport implements Sail {
@@ -14,7 +16,7 @@ public class Boat extends Transport implements Sail {
     }
 
     public Boat(String name, double maxSpeed) {
-        super(maxSpeed, FuelType.DIESEL);
+        super(maxSpeed, Transport.FuelType.DIESEL);
         this.name = name;
     }
 

@@ -1,3 +1,5 @@
+package homework1;
+
 public abstract class Transport {
     private final double maxSpeed;
     private final FuelType fuelType;

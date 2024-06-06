@@ -1,4 +1,4 @@
-package homework7.task1;
+package homework7;
 
 public enum Name {
     ALICE("Alice"),

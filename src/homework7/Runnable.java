@@ -1,6 +1,5 @@
-package homework7.task1;
+package homework7;
 
-import java.io.InputStream;
 import java.util.concurrent.*;
 import java.util.stream.IntStream;
 

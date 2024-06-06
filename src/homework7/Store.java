@@ -1,8 +1,8 @@
-package homework7.task1;
+package homework7;
 
 import java.util.HashMap;
 
-import static homework7.task1.Good.*;
+import static homework7.Good.*;
 
 public class Store {
     private static HashMap<Good, Integer> goods;

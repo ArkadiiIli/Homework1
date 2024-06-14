@@ -1,9 +1,8 @@
-package com.example.pattern.bridge;
+package com.example.homework9.bridge;
 
-public class WmpPlayer implements Player {
+public class WinampPlayer implements Player {
     private Record record = null;
     private int volume = 100;
-
     @Override
     public void play() {
         if (record != null) record.play();
@@ -18,14 +17,14 @@ public class WmpPlayer implements Player {
 
     @Override
     public void volumeDown() {
-        if (volume > 5) volume -= 5;
+        if (volume > 0) volume--;
         System.out.println("Volume is " + volume);
 
     }
 
     @Override
     public void volumeUp() {
-        if (volume < 95) volume += 5;
+        if (volume < 100) volume++;
         System.out.println("Volume is " + volume);
     }
 

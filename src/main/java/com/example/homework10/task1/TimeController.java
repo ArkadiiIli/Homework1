@@ -1,4 +1,4 @@
-package com.example.homework9.task1;
+package com.example.homework10.task1;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,9 +1,9 @@
-package com.example.pattern.bridge;
+package com.example.homework9.bridge;
 
-public class FlacRecord implements Record {
+public class Mp3Record implements Record {
     private final String name;
 
-    public FlacRecord(String name) {
+    public Mp3Record(String name) {
         this.name = name;
     }
 
@@ -23,6 +23,6 @@ public class FlacRecord implements Record {
     }
 
     public String getFormat() {
-        return "flac";
+        return "mp3";
     }
 }

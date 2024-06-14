@@ -1,4 +1,4 @@
-package com.example.pattern.bridge;
+package com.example.homework9.bridge;
 
 public class Runnable {
     public static void main(String[] args) {
